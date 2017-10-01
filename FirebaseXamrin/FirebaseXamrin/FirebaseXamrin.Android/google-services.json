@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "737595603863",
+    "firebase_url": "https://xamarin-firebase-xcv.firebaseio.com",
+    "project_id": "xamarin-firebase-xcv",
+    "storage_bucket": "xamarin-firebase-xcv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737595603863:android:7ce52e946db1daf3",
+        "android_client_info": {
+          "package_name": "xcv.drive.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737595603863-r7t6g97p1okqi3flh38elegqd73dlfuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAdAV35kJ5L3lHFRz3MFQVSQyYXGG4Ehk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
