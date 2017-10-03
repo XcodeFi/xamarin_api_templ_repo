@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "737595603863-7ko7nf5nvcvccku98su251r2fik121m6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xcv.drive.android",
+            "certificate_hash": "5a3c978be4c9bc12317c05c7152c297a1865a6c7"
+          }
+        },
+        {
           "client_id": "737595603863-r7t6g97p1okqi3flh38elegqd73dlfuv.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,20 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737595603863-r7t6g97p1okqi3flh38elegqd73dlfuv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "737595603863-lhd3gehac4582bh86vsvfb42jm1fklq5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "xcv.ios.com"
+              }
+            }
+          ]
         },
         "ads_service": {
           "status": 2

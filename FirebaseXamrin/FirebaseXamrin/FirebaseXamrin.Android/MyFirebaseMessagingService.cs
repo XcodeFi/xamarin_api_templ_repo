@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Firebase.Messaging;
 using Android.Util;
+using Android.Media;
 
 namespace FirebaseXamrin.Droid
 {
@@ -31,12 +32,13 @@ namespace FirebaseXamrin.Droid
             var intent = new Intent(this, typeof(MainActivity));
             intent.AddFlags(ActivityFlags.ClearTop);
             var pendingIntent = PendingIntent.GetActivity(this, 0, intent, PendingIntentFlags.OneShot);
-
+            var defaultSoundUri = RingtoneManager.GetDefaultUri(RingtoneType.Notification);
             var notificationBuilder = new Notification.Builder(this)
                 .SetSmallIcon(Resource.Drawable.icon)
                 .SetContentTitle("FCM Message")
                 .SetContentText(messageBody)
                 .SetAutoCancel(true)
+                .SetSound(defaultSoundUri)
                 .SetContentIntent(pendingIntent);
 
             var notificationManager = NotificationManager.FromContext(this);
